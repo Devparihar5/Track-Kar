@@ -13,11 +13,19 @@ Gopika Varshini (Front-End Developer),
 
 Sruthi Prabha (Front-End Developer)
 
-## IDEA AND APPROACH :
+## IDEA :
+The main idea behind Trackkar is to provide a smart database management system for police use to track criminals in a more efficient and effective way. The system utilizes various data science and AI/ML techniques to help police track criminals using different identifiers such as mobile numbers, FIR numbers, facial recognition, fingerprint detection, and live facial detection from CCTV cameras. It also provides horizontal crowdsourcing using mobile numbers to get anyone's details, crime analysis and forecasting, and natural language processing to analyze people's feedback for police and suggest updates for better coordination.
 
-We have developed a software system for law enforcement which can revolutionize to identify and apprehend criminals. Using Our technology, The system is capable of analyzing vast amounts of data from various sources, including features like face detection,crime analysis,tenet ,online FIR registation, Crime Book as social media platform.
-This application enables law enforcement officials to acces crime related information more quickly and effectively.In addition to its cutting-edge technology, our software system is also designed to be highly secure and easy to use.
-By providing law enforcement agencies with this software will provide quickly and efficient information, we believe that our system can help in making our communities safer and more secure.
+## APPROACH:
+The approach used to build Trackkar involved several steps:
+
+1. Requirement Gathering: The first step was to gather all the requirements from the police department to understand their needs and challenges in tracking criminals.
+
+2. Database Design: Based on the requirements, a database schema was designed to store all the necessary information and provide a unified search experience.
+
+3. Development: The project was developed using various technologies such as Python, Flask, HTML/CSS, JavaScript, and MySQL database. The facial recognition and fingerprint detection features were developed using deep learning techniques and integrated with the system.
+
+4. Integration: The developed features were integrated with the system and tested to ensure they work seamlessly.
 
 ## > Features 
 * Login page according to their access on software
