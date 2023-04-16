@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1eff5ac3a2.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>Crime-Book</title>
+</head>
+
+<body>
+    <header id="header" class="header_box_shadow">
+        <nav class="nav_bar_profil">
+            <div class="logo_search_bar">
+                <a href="/home"></a>
+               
+                <div class="search_bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="search_bar_input"  type="text" placeholder="search for stories">
+                </div>
+            </div>
+            <div class="icons_bar_profils">
+                <ul class="icons_links_profil ">
+                    <li class="icon_link after_element"><a href="/home"><i class="fa-solid fa-house"></i><p>Home</p></a></li>
+                    
+            
+                    
+                    <li class="icon_link icon_new_notification "><a href="/notification"><i class="fa-solid fa-bell"></i><span><p>Notifications</p></span></a></li>
+                    <li class="icon_link me" id="profil_button">
+                        <a href="#" id="link_ckeck_pro"><img id="my_profil" src="../static/css/images/my photo.jpg" alt=""><span><p>profile<i class="fa-solid fa-caret-down"></i></p></span></a>
+                        <div class="profil_link" id="menu_profil">
+                            <div class="profil_name_job">
+                                <img class="post_photo_profil" src="../static/css/images/my photo.jpg" alt="#">
+                                <div class="name_and_job"> 
+                                    <h2>anonymous_123</h2> 
+                                    <p> citizen of AP</p>
+                                </div>
+                            </div>
+                            <div class="see_my_profile"><a href="/profile">View my profile </a></div>
+                            <div class="account">
+                               
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                
+            </div>
+        </nav>
+    </header>
+    
+    
+    <main class="home_page_content">
+          <!-- ------ left_box_----------- -->
+        <section class="left_container">
+            <div class="profil_info">
+                <div id="img_background"><img src="../static/css/images/mybackgr-min.jpg" alt=""></div>
+                <div class="personnal_info">
+                    <span id="photo_profil"><img src="../static/css/images/my photo.jpg" alt=""></span>
+                    <a href="/profile"><h5> anonymous_123 </h5></a>
+                    <p>Citizen of AP</p>
+                </div>
+                <div class="vies_post">
+                    <p class="profil_check"><a href="#">unique views &nbsp;  <span>64</span></a></p>
+                    <p class="post_vue"><a href="#">recent searches &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; <span>13+</span></a></p>
+                </div>
+                
+                <span class="my_element"><i class="fa-solid fa-bookmark"></i>saved stories</span>
+            </div>
+
+            <div class="favoris">
+                <div class="preview">
+                    
+                </div>
+                <div class="group">
+                    <h6><a href="#"> Groups</a></h6>
+                    <p><a href="#"><i class="fa-solid fa-people-group"></i> <span>AP crime stories</span> </a></p>
+                    <p><a href="#"><i class="fa-solid fa-people-group"></i> <span>Delhi crime stories</span> </a></p>
+                    <p><a href="#"><i class="fa-solid fa-people-group"></i> <span>Bihar crime stories</span> </a></p>
+                    <p class="see-more"> <a href="#"> <span >View more </span><i class="fa-solid fa-angle-down"></i></a></p>
+                </div>
+                
+                <p class="follow" id="follow_p"><a href="#"><span>Hashtags</span> <i class="fa-solid fa-angle-up"></i></a></p>
+                <p> <span class="hashtag">#</span>crimestories</p>
+                <p> <span class="hashtag">#</span>socialcrime</p>  
+              
+            </div>
+        </section>
+
+
+
+<!-- ------center box--------------- -->
+        <section class="center_container">
+
+            <section class="left_container" id="responsive_left_box">
+                <div class="profil_info">
+                    <div id="img_background"><img src="../static/css/images/mybackgr-min.jpg" alt=""></div>
+                    <div class="personnal_info">
+                        <span id="photo_profil"><img src="../static/css/images/my photo.jpg" alt=""></span>
+                        <a href="/profile"><h5> anonymous_123</h5></a>
+                        <p> citizen of AP</p>
+                    </div>
+                    <div class="vues_post">
+                        <p class="profil_check"><a href="#">unique views &nbsp;  <span>63</span></a></p>
+                        <p class="post_vue"><a href="#">recent searches &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; <span>13+</span></a></p>
+                    </div>
+                    <div class="premium">
+                    </div>
+                    <span class="my_element"><i class="fa-solid fa-bookmark"></i>saved stories</span>
+                </div>
+    
+                <div class="favoris" id="responsive_favoris">
+                   
+                    <div class="group">
+                        <h6><a href="#"> Groupes</a></h6>
+                        <p><a href="#"><i class="fa-solid fa-people-group"></i> <span>AP crime stories</span> </a></p>
+                        <p><a href="#"><i class="fa-solid fa-people-group"></i> <span>Delhi crime stories</span> </a></p>
+                        <p><a href="#"><i class="fa-solid fa-people-group"></i> <span>Bihar crime stories</span> </a></p>
+                        <p class="see-more"> </i></a></p>
+                    
+                <p class="see-more" id="see_more_center_responsive"> <a href="#"> <span  class="responsive_span_more">more tags</span><span  class="responsive_span_not_more">Voir moins </span><i class="fa-solid fa-angle-down"></i><i class="fa-solid fa-angle-up"></i></a></p>
+            </section>
+
+
+
+            <form method="POST" action="/post">
+                <div class="new_post">
+                    <div class="profil_writting">
+                        <img class="profil_picture" src="../static/css/images/my photo.jpg" alt="#">
+                        <input type="text" name="post_content" placeholder="post a story">
+                    </div>
+                    <div class="post_icons">
+                        <p><a href="#"><i class="fa-solid fa-image"></i><span>Photo</span></p></a>
+                        <p><a href="#"><i class="fa-brands fa-youtube"></i><span>video</span></p></a>
+                        <p><button type="submit"><i class="fa-solid fa-button"></i><span>post</span></button></p>
+                    </div>
+                </div>
+            </form>
+            
+              
+
+            <div class="middle_line" id="center_line">
+                <span class="line"></span>
+                
+            </div>
+
+            <div class="friends_post">
+                <div class="post first_post">
+                    <div class="profil_name_job">
+                        <img class="post_photo_profil" src="../static/css/images/profil2-min.jpg" alt="#">
+                        <div class="name_and_job"> 
+                            <h5>anonymous_234</h4>
+                            <p>citizen of UP</p>
+                            <span>22 &nbsp;h. <i class="fa-solid fa-earth-americas"></i></span>
+                        </div>
+                    </div>
+                    <p class="post_text">Two medical representatives held for the murder of two autorickshaw drivers in Junagadh had searched the internet to find out about cyanide poison as well as to delete CCTV footage recorded by a camera installed by one of the accused, to destroy evidence, police said.<br><a class="more_text" href="#">...voir plus</a></p>
+                </div>
+             
+                <div class="like_share">
+                    <p><i class="fa-solid fa-thumbs-up"></i><span>like</span></p>
+                    <p><i class="fa-solid fa-comment"></i><span>Comment</span></p>
+                    <p><i class="fa-solid fa-share"></i><span>share</span></p>
+                    
+                </div>
+
+                <div class="post second_post ">
+                    <div class="profil_name_job">
+                        <img class="post_photo_profil" src="../static/css/images/js image.png" alt="#">
+                        <div class="name_and_job"> 
+                            <h5>AP police</h4>
+                                <p>98 posts</p>
+                            <span>3&nbsp;h. <i class="fa-solid fa-earth-americas"></i></span>
+                        </div>
+                    </div>
+                    <div class="publication">
+                        <img src="../static/css/images/photo3jpg-min.jpg" alt="">
+                    </div>
+                </div>
+                <div class="like_share">
+                    <p><i class="fa-solid fa-thumbs-up"></i><span>like</span></p>
+                    <p><i class="fa-solid fa-comment"></i><span>Comment</span></p>
+                    <p><i class="fa-solid fa-share"></i><span>share</span></p>
+                    
+                </div>
+
+                <div class="post third_post">
+                    <div class="profil_name_job">
+                        <img class="post_photo_profil" src="../static/css/images/profil16.jpg" alt="#">
+                        <div class="name_and_job"> 
+                            <h5>anonymous_234</h4>
+                            <p>citizen of Odisha</p>
+                            <span>2hrs &nbsp;. <i class="fa-solid fa-earth-americas"></i></span>
+                        </div>
+                    </div>
+                    <p class="post_text">hey people !!! <br>
+                        The Odisha DGP on Wednesday handed over the investigation into the kidnapping and murder of a news portal’s cameraman to the state’s top investigating agency, the CID-Crime Branch. <a class="more_text" href="#">...view more</a></p>
+                    <div class="publication">
+                        <img src="../static/css/images/photo5-min.jpg" alt="">
+                    </div>
+                </div>
+                <div class="like_share">
+                    <p><i class="fa-solid fa-thumbs-up"></i><span>like</span></p>
+                    <p><i class="fa-solid fa-comment"></i><span>Comment</span></p>
+                    <p><i class="fa-solid fa-share"></i><span>share</span></p>
+                    
+                </div>
+
+                <div class="post third_post">
+                    <div class="profil_name_job">
+                        <img class="post_photo_profil" src="../static/css/images/profil15.jpg" alt="#">
+                        <div class="name_and_job"> 
+                            <h5>anonymous_999</h4>
+                            <p>citizen of Assam</p>
+                            <span>5days &nbsp;. <i class="fa-solid fa-earth-americas"></i></span>
+                        </div>
+                    </div>
+                    <p class="post_text">terrorist attack on assam,40 people injured..</p>
+                    <div class="publication">
+                        <img src="../static/css/images/photo6-min.jpg" alt="">
+                    </div>
+                </div>
+                <div class="like_share">
+                    <p><i class="fa-solid fa-thumbs-up"></i><span>like</span></p>
+                    <p><i class="fa-solid fa-comment"></i><span>Comment</span></p>
+                    <p><i class="fa-solid fa-share"></i><span>share</span></p>
+                    
+                </div>
+            </div>
+
+            <div class="post second_post ">
+                <div class="profil_name_job">
+                    <img class="post_photo_profil" src="../static/css/images/profil12.jpg" alt="#">
+                    <div class="name_and_job"> 
+                        <h5>anonymous_879</h5>
+                        <p>citizen of Nagpur</p>
+                        <span>1 week &nbsp;. <i class="fa-solid fa-earth-americas"></i></span>
+                    </div>
+                </div>
+                <p class="post_text">Over 1,000 security personnel, including Nagpur Commissioner of Police Amitesh Kumar and other senior officials, investigated the case in Maharashtra after the woman lodged the complaint at Kalamna police station.</p>
+                <div class="publication">
+                    <img src="../static/css/images/postjpg.jpg" alt="">
+                </div>
+            </div>
+            <div class="like_share">
+                <p><i class="fa-solid fa-thumbs-up"></i><span>like</span></p>
+                <p><i class="fa-solid fa-comment"></i><span>Comment</span></p>
+                <p><i class="fa-solid fa-share"></i><span>share</span></p>
+                
+            </div>
+
+            <div class="post second_post ">
+                <div class="profil_name_job">
+                    <img class="post_photo_profil" src="../static/css/images/profil17.jpg" alt="#">
+                    <div class="name_and_job"> 
+                        <h5>anonymous_003</h4>
+                        <p>citizen of Chennai</p>
+                        <span>3days &nbsp;. <i class="fa-solid fa-earth-americas"></i></span>
+                    </div>
+                </div>
+                <p class="post_text">The victim, identified as Ajith Kumar (24), works at an online food delivery company. All the stolen items were recovered from the accused and handed over to the victim. </p>
+                <div class="publication">
+                    <img src="../static/css/images/post2.jpg" alt="">
+                </div>
+            </div>
+            <div class="like_share">
+                <p><i class="fa-solid fa-thumbs-up"></i><span>like</span></p>
+                <p><i class="fa-solid fa-comment"></i><span>Comment</span></p>
+                <p><i class="fa-solid fa-share"></i><span>share</span></p>
+                
+            </div>
+        </section>
+
+    <!-- ----------------right_container------------- -->
+        <article class="right_container">
+            <div class="follow_people">
+                <div class="follow_people">
+                    <h3>see stories from your place</h3>
+                    <div class="profil_name_job">
+                        <img class="post_photo_profil" src="../static/css/images/profil12.jpg" alt="#">
+                        <div class="name_and_job second_name"> 
+                            <h5>anonymous_234</h4>
+                            <p>Delhi man kills sick wife for not cooking food, and being 'lazy’</p>
+                        </div>
+                    </div>
+                    <div class="follow_button fol_button"><a href="#">view more</a></div>
+                </div>
+    
+                <div class="follow_people">
+                    <div class="profil_name_job second_name">
+                        <img class="post_photo_profil" src="../static/css/images/profil4-min.jpg" alt="#">
+                        <div class="name_and_job"> 
+                            <h5>anonymous_789</h4>
+                            <p>Crypto fraud: Mumbai woman duped by conman on matrimonial site, loses Rs 24 lakh</p>
+                        </div>
+                    </div>
+                    <div class="follow_button fol_button"><a href="#"> view more</a></div>
+                </div>
+    
+                <div class="follow_people follow_last">
+                    <div class="profil_name_job second_name">
+                        <img class="post_photo_profil" src="../static/css/images/profil16.jpg" alt="#">
+                        <div class="name_and_job"> 
+                            <h5>anonymous_999</h4>
+                            <p>Chandigarh: Three involved for nightclub attack nabbed; five others put under preventive arrest</p>
+                        </div>
+                    </div>
+                    <div class="follow_button fol_button"><a href="#"> View more</a></div>
+                </div>
+                <div class="see_all_suggestion "><span>see more</span><i class="fa-solid fa-angle-down"></i></div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+    </article>
+    <script src="../static/index.js"></script>
+</body>
+</html>
