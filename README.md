@@ -40,7 +40,11 @@ By providing law enforcement agencies with this software will provide quickly an
 * Crime analysis and forecasting functionality based on current FIR registrations using various statistical and machine learning models.
 ![image](https://user-images.githubusercontent.com/54232149/232334228-fdcea9cd-2e7d-46ea-882f-d9dc46b8f3c6.png)
 
+* crime prioritization based on the description of the crime from a specially created platform. Developed the platform where anyone can post about a crime anonymously, and the data is stored in the database. Utilized natural language processing and machine learning models to prioritize crimes based on their severity. Integrated the crime prioritization functionality into Track-Kar for efficient handling of cases by the police.
+![image](https://user-images.githubusercontent.com/54232149/232334405-4076de32-6eef-451f-9ac5-fecd62046120.png)
 
+
+--> Additional Features
 Natural language processing to analyze people's feedback for police and suggest updates for better coordination.
 
 
