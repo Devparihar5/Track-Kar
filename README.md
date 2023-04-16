@@ -6,9 +6,9 @@
 
 TEAM DETAILS:
 
-Devendra Parihar
-Gopika Varshini
-Sruthi Prabha
+Devendra Parihar ,
+Gopika Varshini ,
+Sruthi Prabha .
 
 IDEA AND APPROACH :
 
