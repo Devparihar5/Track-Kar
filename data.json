@@ -1,0 +1,139 @@
+{
+    "data": [
+        {
+            "key": "9059623015",
+            "value": {
+                "id": "BxiChExgcPbFuISUQ6wIHg==",
+                "name": "Gopika Varshini",
+                "imId": "1gu2w7bovyolc",
+                "gender": "UNKNOWN",
+                "about": "",
+                "image": "https://storage.googleapis.com/tc-images-noneu/myview/1/fea8b67a4e65bd5c176c51e540be626f/1",
+                "jobTitle": "",
+                "score": 0.9,
+                "access": "PUBLIC",
+                "enhanced": true,
+                "companyName": "",
+                "phones": [
+                    {
+                        "e164Format": "+919059623015",
+                        "numberType": "MOBILE",
+                        "nationalFormat": "090596 23015",
+                        "dialingCode": 91,
+                        "countryCode": "IN",
+                        "carrier": "Unitech Wireless-Bharti Airtel",
+                        "type": "openPhone"
+                    }
+                ],
+                "addresses": [
+                    {
+                        "address": "IN",
+                        "street": "",
+                        "zipCode": "",
+                        "city": "Andhra Pradesh",
+                        "countryCode": "IN",
+                        "timeZone": "+05:30",
+                        "type": "address"
+                    }
+                ],
+                "internetAddresses": [
+                    {
+                        "id": "gopikavarshini.23@gmail.com",
+                        "service": "email",
+                        "caption": "Gopika Varshini",
+                        "type": "internetAddress"
+                    }
+                ],
+                "badges": [
+                    "user"
+                ],
+                "tags": [],
+                "cacheTtl": 1296000000,
+                "sources": [],
+                "searchWarnings": [],
+                "surveys": [
+                    {
+                        "id": "d61f74f4-2158-43b0-83de-a4bf056bbc51",
+                        "frequency": 3600,
+                        "passthroughData": "eyAiMyI6ICI5MTkwNTk2MjMwMTUiLCAiOCI6ICIwIiwgIjIiOiAiR29waWthIFZhcnNoaW5pIiwgIjQiOiAicGYiIH0=",
+                        "perNumberCooldown": 31536000
+                    }
+                ],
+                "commentsStats": {
+                    "showComments": false
+                },
+                "ns": 0
+            }
+        },
+        {
+            "key": " 8963002842",
+            "value": {
+                "id": "Jr2K2UZvy/eGcJ9ikDUDUQ==",
+                "name": "Devendra Parihar",
+                "imId": "1iiug8pzfvpxc",
+                "gender": "UNKNOWN",
+                "about": "",
+                "image": "https://storage.googleapis.com/tc-images-noneu/myview/1/4954c5fe90d4648186221eb635d50252/1",
+                "jobTitle": "",
+                "score": 0.9,
+                "access": "PUBLIC",
+                "enhanced": true,
+                "companyName": "",
+                "phones": [
+                    {
+                        "e164Format": "+918963002842",
+                        "numberType": "MOBILE",
+                        "nationalFormat": "089630 02842",
+                        "dialingCode": 91,
+                        "countryCode": "IN",
+                        "carrier": "Aircel",
+                        "type": "openPhone"
+                    }
+                ],
+                "addresses": [
+                    {
+                        "address": "IN",
+                        "street": "",
+                        "zipCode": "",
+                        "city": "Rajasthan",
+                        "countryCode": "IN",
+                        "timeZone": "+05:30",
+                        "type": "address"
+                    }
+                ],
+                "internetAddresses": [
+                    {
+                        "id": "devendraparihar340@gmail.com",
+                        "service": "email",
+                        "caption": "Devendra Parihar",
+                        "type": "internetAddress"
+                    }
+                ],
+                "badges": [
+                    "user",
+                    "verified"
+                ],
+                "tags": [],
+                "cacheTtl": 86400000,
+                "sources": [],
+                "searchWarnings": [],
+                "surveys": [
+                    {
+                        "id": "d61f74f4-2158-43b0-83de-a4bf056bbc51",
+                        "frequency": 3600,
+                        "passthroughData": "eyAiMyI6ICI5MTg5NjMwMDI4NDIiLCAiOCI6ICIwIiwgIjIiOiAiRGV2ZW5kcmEgUGFyaWhhciIsICI0IjogInBmIiB9",
+                        "perNumberCooldown": 31536000
+                    }
+                ],
+                "commentsStats": {
+                    "showComments": false
+                },
+                "ns": 0
+            }
+        }
+    ],
+    "provider": "ss-uni-leg-bulk",
+    "stats": {
+        "sourceStats": []
+    }
+}
