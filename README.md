@@ -1,8 +1,8 @@
-# House-of_hackers
+# House-of-Hackers
 
-PROBLEM STATEMENT:
+### PROBLEM STATEMENT:
 
-Website/App for Citizens and Police for management of crime records
+*Website/App for Citizens and Police for management of crime records*
 
 TEAM DETAILS:
 
