@@ -19,7 +19,9 @@ By providing law enforcement agencies with this software will provide quickly an
 TECH STACK USED:
 
 HTML and CSS are used for front-end development---> responsible for crafting the userinterface and presentation layer
-The backend utilizes Python, MySQL and js ---> logic and database management for facial
+
+The backend utilizes Python, MySQL and js ---> logic and database management 
+
 Data Science, Machine Learning, Artificial intelligence ---> employed for detection and analysis
 
 
