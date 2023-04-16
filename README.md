@@ -23,8 +23,11 @@ By providing law enforcement agencies with this software will provide quickly an
 * Designed and developed the unified database searching functionality for tracking criminals using their mobile number and FIR number.
 ![image](https://user-images.githubusercontent.com/54232149/232333664-f05984fd-919e-4ea7-a97d-78ffdcdb19ff.png)
 
+
 * facial recognition feature using deep learning techniques to identify criminals.
 * live facial detection feature from multiple CCTV cameras to detect criminals and trigger alarms.
+![image](https://user-images.githubusercontent.com/54232149/232334179-a8b31067-8077-42e9-a238-235840314e19.png)
+
 
 * Fingerprint detection feature without the need for any hardware to fetch criminal history.
 ![image](https://user-images.githubusercontent.com/54232149/232333917-c496c613-2b1d-4790-b194-1396dd1bbb0e.png)
@@ -33,8 +36,10 @@ By providing law enforcement agencies with this software will provide quickly an
 ![image](https://user-images.githubusercontent.com/54232149/232333948-62f1e2b4-9a08-4eda-a667-fc976923bf8f.png)
 
 * Crime analysis and forecasting functionality based on current FIR registrations using various statistical and machine learning models.
+![image](https://user-images.githubusercontent.com/54232149/232334228-fdcea9cd-2e7d-46ea-882f-d9dc46b8f3c6.png)
 
-Utilized natural language processing to analyze people's feedback for police and suggest updates for better coordination.
+
+Natural language processing to analyze people's feedback for police and suggest updates for better coordination.
 
 
 
