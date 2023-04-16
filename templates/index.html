@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="static/imgs/fav.png" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> -->
+  <link rel="stylesheet" href="../static/css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Tracकर</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light header-menu w-100 bg-white fixed-top">
+  <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary"> -->
+    
+<style>
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 12px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  </style>
+  </head>
+  <body>
+  
+    <a class="navbar-brand" href="#home"><img class="logo" src="static/imgs/Frame3_new.png" alt=""
+      style="color: #132C6C;">Tracकर </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#detail">Application Details</a>
+          </li>
+          <li class="nav-item"> 
+            <a class="nav-link" aria-current="page" href="login">Log out</a>
+          </li>
+        </ul>
+        </div>
+  
+    <div class="dropdown">
+      <span>Features              ................................................................................. </span>
+
+    <div class="dropdown-content">
+      <li><a class="dropdown-item" href="criminal_face">Face Recognition</a></li>
+      <li><a class="dropdown-item" href="face_upload">Live Face Recognition</a></li>
+      <li><a class="dropdown-item" href="upload">FingerPrint</a></li>
+      <li><a class="dropdown-item" href="speed">Traffic Management System</a></li>
+      <li><a class="dropdown-item" href="crime_analysis">crime Analysis</a></li>
+      <li><a class="dropdown-item" href="NLP_model">NLP Model</a></li>
+      <li><a class="dropdown-item" href="Police_caller">Police Caller</a></li>
+       
+    </div>
+  </div>
+
+
+</nav>
+</body>
+
+
+  <section class="colour-bg">
+    <div class="untitled">
+      <div class="untitled__slides">
+        <div class="untitled__slide">
+          <div class="untitled__slideBg"></div>
+
+        </div>
+        <div class="untitled__slide">
+          <div class="untitled__slideBg"></div>
+
+        </div>
+        <div class="untitled__slide">
+          <div class="untitled__slideBg"></div>
+
+        </div>
+        <div class="untitled__slide">
+          <div class="untitled__slideBg"></div>
+
+        </div>
+      </div>
+      <div class="untitled__shutters"></div>
+    </div>
+  </section>
+  <section class="allset" data-aos="fade-up">
+    <section class="banner-area" id="home">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg">
+            <div class="banner-text w-50 mx-auto text-white text-center">
+              <h3> Intelligent Database Management System with Artificial Intelligence </h3>
+              <h1 class="mb-5" style="font-size: 108px;">Tracकर</h1>
+              <form action="{{ url_for('IN')}}" method="post">
+                <div class="row">
+                  <div class="col-lg-7" style="gap: 10px;">
+                    <!-- <label for="mobilenumber">Number:</label> -->
+                    <input type="text" id="mobilenumber" class="form-control form-control-lg" name="mnumber"
+                      placeholder="Number/Fir No.">
+                  </div>
+                  <div class="col-3">
+                    <!-- <button type="submit" class="btn btn-outline-primary btn-lg btn-block"> -->
+                    <button type="submit" class="btn btn-info btn-lg btn-block" href="result">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>s
+  </section>
+
+
+
+
+
+    <section class="activity-section" data-aos="fade-up">
+      <div class="container" data-aos="fade-left">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="activity-section-text">
+              <h1 class="mb-4">About our app</h1>
+              <p>Tool which is able to horizontally crawl and gather data across different platforms. This search could
+                be based upon
+                mail ID or the mobile number.
+
+                Expectation: Police will be able to crowd source the information from different platforms and instantly
+                develop the
+                profile of the suspected person. eg- based upon different types of classification.
+
+                Result (expected): Police will get a handy tool which will be able to generate digital profile of any
+                suspect/criminal
+                within minutes.</p>
+            </div>
+          </div>
+          <div class="col-lg-4" data-aos="fade-right">
+            <img class="rounded"
+              src="./caught-criminal-is-holding-sign-with-name-identification-photo-character_124715-102.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section id="feature">
+    <section class="app-paragraph text-center" data-aos="fade-up">
+      <div class="container main-bg">
+        <div class="col">
+          <h1>Learn more about our application</h1>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="features-area py-5">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 mb-4" data-aos="fade-right">
+            <div class="features-item  d-flex align-items-center">
+              <div class="left-img h-100">
+                <img src="https://i.ibb.co/pXrQP7z/022.jpg" alt="">
+              </div>
+              <div class="right-text h-auto">
+                <h4>Mobile Tracking</h4>
+                <p>Can create a person's profile from mobile number.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4" data-aos="fade-up">
+            <div class="features-item d-flex align-items-center">
+              <div class="left-img h-100">
+                <img src="https://i.ibb.co/ZxbR3bH/mbr-7.png" alt="">
+              </div>
+              <div class="right-text h-auto">
+                <h4>FingerPrint Detection</h4>
+                <p>We can check and verify FingerPrint data all over FingerPrint data</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4" data-aos="fade-left">
+            <div class="features-item d-flex align-items-center">
+              <div class=" left-img h-100">
+                <img class="prb " src="https://i.ibb.co/djc1JkF/mbr-8.jpg" alt="">
+              </div>
+              <div class="right-text h-auto">
+                <h4>Face Recognition</h4>
+                <p>Matches provided face in database and displays their profile.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4" data-aos="fade-right">
+            <div class="features-item d-flex align-items-center">
+              <div class="left-img h-100">
+                <img src="https://i.ibb.co/f054zw4/05.jpg" alt="">
+              </div>
+              <div class="right-text h-auto">
+                <h4>Secured Access</h4>
+                <p>Ony available to authorized individuals by uttarakhand police govt.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 item" data-aos="fade-up">
+            <div class="features-item d-flex align-items-center">
+              <div class="left-img h-100">
+                <img src="https://i.ibb.co/12VThQK/mbr-12.png" alt="">
+              </div>
+              <div class="right-text h-auto">
+                <h4>Intelligence</h4>
+                <p>Is able to crawl and gather information from different sources.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4" data-aos="fade-left">
+            <div class="features-item d-flex align-items-center">
+              <div class="left-img h-100">
+                <img src="https://i.ibb.co/vQtg6sq/mbr-13.jpg" alt="">
+              </div>
+              <div class="right-text h-auto">
+                <h4>Responsive </h4>
+                <p>Can be accessed from any device with internet service. </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="col-lg-4 mb-4 item" data-aos="fade-right">
+            <div class="features-item d-flex align-items-center">
+              <div class="left-img h-100">
+                <img src="https://i.ibb.co/12VThQK/mbr-12.png" alt="">
+              </div>
+              <div class="right-text h-auto">
+                <h4>WORKOUTS</h4>
+                <p>We build the workouts for you, you follow them and get results. App will take you through each
+                  expert-built workout, set by set.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4 item" data-aos="fade-center">
+            <div class="features-item d-flex align-items-center">
+              <div class="left-img h-100">
+                <img src="https://i.ibb.co/12VThQK/mbr-12.png" alt="">
+              </div>
+              <div class="right-text h-auto">
+                <h4>WORKOUTS</h4>
+                <p>We build the workouts for you, you follow them and get results. App will take you through each
+                  expert-built workout, set by set.</p>
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+      </div>
+
+    </section>
+  </section>
+
+
+  <section id="feature">
+    <section class="app-paragraph text-center" data-aos="fade-up">
+      <div class="container main-bg">
+        <div class="col">
+          <h1>Get to know our team</h1>
+
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+  <!-- About section Start -->
+
+  <section class="about-area py-5 main-bg" id="about">
+    <div class="container main-bg ">
+      <div class="row">
+<!-- Add this card in center -->
+        <div class="col-lg-3" data-aos="fade-center">
+          <div class="about-items">
+            <div class="card border-0 shadow">
+              <img class="rounded-circle" src="static/imgs/dev---122.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Devendra Parihar</h4>
+                <h6 class="card-subtitle mb-3">Data Scientist & Machine Learning Engineer</h6>
+                <a class="btn btn-light shadow mb-4" href="https://www.linkedin.com/in/dev-parihar524/">Linkedin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3" data-aos="fade-right">
+          <div class="about-items">
+            <div class="card border-0 shadow">
+              <img class="rounded-circle" src="../static/imgs/pranav.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Paranv Joshi</h4>
+                <h6 class="card-subtitle mb-3">Frontend Developer in Angular TS</h6>
+                <a class="btn btn-light shadow mb-4"
+                  href="https://www.linkedin.com/in/pranav-p-joshi/">Linkedin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-lg-3" data-aos="fade-left"> -->
+          <!-- <div class="about-items">
+            <div class="card border-0 shadow">
+              <img class="rounded-circle" src="static/imgs/1635756022897.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Yuvraj Singh</h4>
+                <h6 class="card-subtitle mb-3">Web developer</h6>
+                <p class="card-text mb-3"> Web Developer || UI/UX Designer || App developer || Content Creator </p>
+                <a class="btn btn-light shadow mb-4"
+                  href="https://www.linkedin.com/in/yuvraj-singh-168826204/">Linkedin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3" data-aos="fade-right">
+          <div class="about-items">
+            <div class="card border-0 shadow">
+              <img class="rounded-circle" src="static/imgs/1655582769611.jpg" alt="">
+              <div class="card-body">
+                <h4 class="card-title">Milan Kumawat</h4>
+                <h6 class="card-subtitle mb-3">Designer</h6>
+                <p class="card-text mb-3"> Flutter • Dart • Cross Platform📱App Developer • Hybrid App</p>
+                <a class="btn btn-light shadow mb-4" href="https://www.linkedin.com/in/milankumawat01/">Linkedin</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> -->
+
+    </div>
+  </section>
+  <!-- About section End -->
+
+
+
+
+
+
+
+
+
+  <section id="feature">
+    <section class="app-paragraph text-center" data-aos="fade-up">
+      <div class="container main-bg">
+        <div class="col">
+          <h3>© Copyright 2023 The Debuggers -All Rights Reserved</h3>
+
+        </div>
+      </div>
+    </section>
+  </section>
+
+
+
+
+
+
+
+
+  <!-- footer Section -->
+
+  <!-- <footer class="footer-section  p-4">
+  <div class="container ">
+    <div class="row ">
+      <div class="col text-center">
+        <p class="lead  mb-0">© Copyright 2020 AH Pollob - All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- Popper.js first, then Bootstrap JS -->
+  <link rel="stylesheet" href="js/bootstrap.min.js">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var loadFile = function (event) {
+      var image = document.getElementById('output');
+      image.src = URL.createObjectURL(event.target.files[0]);
+    };
+  </script>
+  <script>
+    $(document).ready(function () {
+      var i = 1;
+      $('.add').on('click', function () {
+        var field = '<br><div>Document Name ' + i + ': <input type="text" name="blog_linku_one[]"> &nbsp; Document Id ' + i + ':  <input type="text" name="blog_linkn_one[]"> &nbsp; Upload Id ' + i + ':  <input type="file" name="blog_upload_one[]"></div>';
+        $('.appending_div').append(field);
+        i = i + 1;
+      })
+    })
+  </script>
+</body>
+
+</html>

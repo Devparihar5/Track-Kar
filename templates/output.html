@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/css/output.css" />
+    <!-- <link rel="stylesheet" href="static/css/style.css"> -->
+    <title>output</title>
+</head>
+
+<body>
+
+    <section class="colour-bg">
+        <div class="untitled">
+            <div class="untitled__slides">
+                <div class="untitled__slide">
+                    <div class="untitled__slideBg"></div>
+
+                </div>
+                <div class="untitled__slide">
+                    <div class="untitled__slideBg"></div>
+
+                </div>
+                <div class="untitled__slide">
+                    <div class="untitled__slideBg"></div>
+
+                </div>
+                <div class="untitled__slide">
+                    <div class="untitled__slideBg"></div>
+
+                </div>
+            </div>
+            <div class="untitled__shutters"></div>
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <div class="profile-card js-profile-card">
+            <div class="profile-card__img">
+                <img src="static/imgs/user_img.png" alt="profile card" srcset="">
+            </div>
+
+            <div class="profile-card__cnt js-profile-cnt">
+                
+              
+                <div class="profile-card__name">{{data['Name']}}</div>
+                <div>
+                    <div class="all">
+                        <div class="first">
+                            <div class="profile-card__txt">Fir No.: <strong>{{data['fir_no']}}</strong></div>
+
+                            <div class="profile-card__txt">Phone Number: <strong>{{data['Number']}}</strong></div>
+
+
+                            <div class="profile-card__txt">Email: <strong>{{data['MailId']}}</< /strong>
+                            </div>
+
+<!-- 
+                            <div class="profile-card__txt">Alise Name: <strong>{{data['alice']}}</strong></div>
+
+                            <div class="profile-card__txt">Mother Name: <strong>{{data['mname']}}</strong></div>
+
+                            <div class="profile-card__txt">Height: <strong>{{data['height']}}</strong></div> -->
+
+                            <div class="profile-card__txt">Present Address: <strong>{{data['pre_address']}}</strong>
+                            </div>
+
+                            <!-- <div class="profile-card__txt">Adhar Card No.: <strong>{{data['adhaar']}}</strong></div>
+
+                            <div class="profile-card__txt">Driving Licencce: <strong>{{data['driving']}}</strong></div>
+
+                            <div class="profile-card__txt">Bank Name: <strong>{{data['bank_name']}}</strong></div>
+
+                            <div class="profile-card__txt">Crime: <strong>{{data['crime']}}</strong></div>
+
+                            <div class="profile-card__txt">Station Name: <strong>{{data['st_name']}}</strong></div>
+                        </div>
+                        <div class="second">
+                            <div class="profile-card__txt">Phone Number-2: <strong>{{data['Number-2']}}</strong></div> -->
+
+                            <div class="profile-card__txt">Date of Birth: <strong>{{data['DOB']}}</strong></div>
+<!-- 
+                            <div class="profile-card__txt">Father Name: <strong>{{data['fname']}}</strong></div>
+
+                            <div class="profile-card__txt">Gender: <strong>{{data['gender']}}</strong></div>
+
+                            <div class="profile-card__txt">Identy Mark: <strong>{{data['identy_mark']}}</strong></div> -->
+
+                            <!-- <div class="profile-card__txt">Permanent Address: <strong>{{data['perm_address']}}</strong>
+                            </div>
+
+                            <div class="profile-card__txt">Pan Card: <strong>{{data['pan']}}</strong></div>
+
+                            <div class="profile-card__txt">Other Document: <strong>{{data['other_docs']}}</strong></div>
+
+                            <div class="profile-card__txt">Bank Account: <strong>{{data['bank']}}</strong></div> -->
+
+                            <!-- <div class="profile-card__txt">Theaft No.: <strong>{{data['theaft_no']}}</strong></div> -->
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-outline-primary btn-lg btn-block new_btn"> <a
+                            style="text-decoration:none; color: aliceblue;" href="/home">Back to home</a> </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="info">Information</div>
+    <div class="box">
+        <img src="https://tse3.explicit.bing.net/th?id=OIP.4d7Emr_d4fJnEE6zK7pj_wHaFK&pid=Api&P=0" alt="profile pic"
+            srcset="" />
+        {% for item in data %} 
+        <p class="ligh-text">Phone Number <span>{{item.phoneNumber}}</span></p>
+        <p class="ligh-text">Name <span>{{item.name}}</span></p>
+        <p class="ligh-text">Email <span>{{item.email}}</span></p>
+        <p class="ligh-text">Address <span>{{item.address}}</span></p>
+        <p class="ligh-text">Date of brith <span>{{item.dob}}</span></p>
+        <p class="ligh-text">carries <span>{{item.carries}}</span></p>
+        {% endfor %}
+    </div> -->
+</body>
+
+</html>

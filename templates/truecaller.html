@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" href="static/imgs/fav.png" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"> -->
+  <link rel="stylesheet" href="../static/css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>Tracकर</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light header-menu w-100 bg-white fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><img class="logo" src="static/imgs/Frame3_new.png" alt=""
+          style="color: #132C6C;">Tracकर </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 menu">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#detail">Application Details</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#feature">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="upload">Face Recognition</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="upload">Finger Print </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="login">Log Out</a>
+          </li> 
+        </ul>
+        <a class="btn btn-outline-primary btn-lg" href="#about">About us</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="colour-bg">
+    <div class="untitled">
+      <div class="untitled__slides">
+        <div class="untitled__slide">
+          <div class="untitled__slideBg"></div>
+
+        </div>
+        <div class="untitled__slide">
+          <div class="untitled__slideBg"></div>
+
+        </div>
+        <div class="untitled__slide">
+          <div class="untitled__slideBg"></div>
+
+        </div>
+        <div class="untitled__slide">
+          <div class="untitled__slideBg"></div>
+
+        </div>
+      </div>
+      <div class="untitled__shutters"></div>
+    </div>
+  </section>
+  <section class="allset" data-aos="fade-up">
+    <section class="banner-area" id="home">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg">
+            <div class="banner-text w-50 mx-auto text-white text-center">
+              <h3> Intelligent Database Management System with Artificial Intelligence </h3>
+              <h1 class="mb-5" style="font-size: 108px;">Tracकर</h1>
+              <form action="{{ url_for('IN')}}" method="post">
+                <div class="row">
+                  <div class="col-lg-7" style="gap: 10px;">
+                    <!-- <label for="mobilenumber">Number:</label> -->
+                    <input type="text" id="mobilenumber" class="form-control form-control-lg" name="mnumber"
+                      placeholder="Number/Fir No.">
+                  </div>
+                  <div class="col-3">
+                    <!-- <button type="submit" class="btn btn-outline-primary btn-lg btn-block"> -->
+                    <button type="submit" class="btn btn-info btn-lg btn-block" href="result">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+    <!-- </section> -->
+    
+  <!-- footer Section -->
+
+  <!-- <footer class="footer-section  p-4">
+  <div class="container ">
+    <div class="row ">
+      <div class="col text-center">
+        <p class="lead  mb-0">© Copyright 2020 AH Pollob - All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer> -->
+
+
+  <!-- Optional JavaScript -->
+  <!-- Popper.js first, then Bootstrap JS -->
+  <link rel="stylesheet" href="js/bootstrap.min.js">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    var loadFile = function (event) {
+      var image = document.getElementById('output');
+      image.src = URL.createObjectURL(event.target.files[0]);
+    };
+  </script>
+  <script>
+    $(document).ready(function () {
+      var i = 1;
+      $('.add').on('click', function () {
+        var field = '<br><div>Document Name ' + i + ': <input type="text" name="blog_linku_one[]"> &nbsp; Document Id ' + i + ':  <input type="text" name="blog_linkn_one[]"> &nbsp; Upload Id ' + i + ':  <input type="file" name="blog_upload_one[]"></div>';
+        $('.appending_div').append(field);
+        i = i + 1;
+      })
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Anton|Passion+One|PT+Sans+Caption' rel='stylesheet' type='text/css'>
+    <title>Error page</title>
+    <link rel="stylesheet" href="../static/css/error.css">
+
+</head>
+<body>
+
+    <!-- Error Page -->
+<h1>404 Error Page #1</h1>
+<p class="zoom-area"><b>Error While Getting input</b></p>
+<section class="error-container">
+    <span><span>4</span></span>
+    <span>0</span>
+    <span><span>4</span></span>
+</section>
+<div class="link-container">
+    <a href="/home" class="more-link">Back to Home</a>
+</div>
+    <!-- Error Page -->
+
+
+    <script>
+        function randomNum() {
+                "use strict";
+                return Math.floor(Math.random() * 9) + 1;
+            }
+            var loop1, loop2, loop3, time = 30, i = 0, number, selector3 = document.querySelector('.thirdDigit'), selector2 = document.querySelector('.secondDigit'),
+                selector1 = document.querySelector('.firstDigit');
+            loop3 = setInterval(function () {
+                "use strict";
+                if (i > 40) {
+                    clearInterval(loop3);
+                    selector3.textContent = 4;
+                } else {
+                    selector3.textContent = randomNum();
+                    i++;
+                }
+            }, time);
+            loop2 = setInterval(function () {
+                "use strict";
+                if (i > 80) {
+                    clearInterval(loop2);
+                    selector2.textContent = 0;
+                } else {
+                    selector2.textContent = randomNum();
+                    i++;
+                }
+            }, time);
+            loop1 = setInterval(function () {
+                "use strict";
+                if (i > 100) {
+                    clearInterval(loop1);
+                    selector1.textContent = 4;
+                } else {
+                    selector1.textContent = randomNum();
+                    i++;
+                }
+            }, time);
+    </script>
+</body>
+</html>
