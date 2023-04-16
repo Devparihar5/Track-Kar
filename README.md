@@ -7,7 +7,9 @@
 TEAM DETAILS:
 
 Devendra Parihar (Data Scientist),
+
 Gopika Varshini (Front-End Developer),
+
 Sruthi Prabha (Front-End Developer)
 
 ## IDEA AND APPROACH :
