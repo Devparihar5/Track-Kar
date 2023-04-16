@@ -16,19 +16,24 @@ We have developed a software system for law enforcement which can revolutionize 
 This application enables law enforcement officials to acces crime related information more quickly and effectively.In addition to its cutting-edge technology, our software system is also designed to be highly secure and easy to use.
 By providing law enforcement agencies with this software will provide quickly and efficient information, we believe that our system can help in making our communities safer and more secure.
 
-> Features 
-* Login page According to their Access on Software
+## > Features 
+* Login page according to their access on software
 ![image](https://user-images.githubusercontent.com/54232149/232333722-17fcb5d8-f478-4658-8149-93fa13b1c675.png)
 
 * Designed and developed the unified database searching functionality for tracking criminals using their mobile number and FIR number.
 ![image](https://user-images.githubusercontent.com/54232149/232333664-f05984fd-919e-4ea7-a97d-78ffdcdb19ff.png)
 
+* facial recognition feature using deep learning techniques to identify criminals.
+* live facial detection feature from multiple CCTV cameras to detect criminals and trigger alarms.
 
-Implemented the facial recognition feature using deep learning techniques to identify criminals.
-Integrated the fingerprint detection feature without the need for any hardware to fetch criminal history.
-Created the horizontal crowdsourcing functionality using mobile numbers to get anyone's details for faster tracking.
-Implemented the live facial detection feature from multiple CCTV cameras to detect criminals and trigger alarms.
-Developed the crime analysis and forecasting functionality based on current FIR registrations using various statistical and machine learning models.
+* Fingerprint detection feature without the need for any hardware to fetch criminal history.
+![image](https://user-images.githubusercontent.com/54232149/232333917-c496c613-2b1d-4790-b194-1396dd1bbb0e.png)
+
+* Horizontal crowdsourcing functionality using mobile numbers to get anyone's details for faster tracking.
+![image](https://user-images.githubusercontent.com/54232149/232333948-62f1e2b4-9a08-4eda-a667-fc976923bf8f.png)
+
+* Crime analysis and forecasting functionality based on current FIR registrations using various statistical and machine learning models.
+
 Utilized natural language processing to analyze people's feedback for police and suggest updates for better coordination.
 
 
