@@ -1,0 +1,95 @@
+[
+    {
+      "id": "001",
+      "date": "2022-01-01",
+      "time": "13:25:00",
+      "location": "100 Main St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "crime_type": "Assault",
+      "description": "Victim was attacked by an unknown suspect with a blunt object.",
+      "suspect": {
+        "name": "Unknown",
+        "gender": "Unknown",
+        "age": "Unknown",
+        "race": "Unknown"
+      },
+      "victim": {
+        "name": "John Smith",
+        "gender": "Male",
+        "age": "35",
+        "race": "White"
+      }
+    },
+    {
+      "id": "002",
+      "date": "2022-01-01",
+      "time": "15:10:00",
+      "location": "200 Maple Ave",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "crime_type": "Burglary",
+      "description": "Suspect entered the residence by breaking a window and stole a TV and a laptop.",
+      "suspect": {
+        "name": "Unknown",
+        "gender": "Unknown",
+        "age": "Unknown",
+        "race": "Unknown"
+      },
+      "victim": {
+        "name": "Jane Doe",
+        "gender": "Female",
+        "age": "42",
+        "race": "Hispanic"
+      }
+    },
+    {
+      "id": "003",
+      "date": "2022-01-02",
+      "time": "09:00:00",
+      "location": "300 Oak St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "crime_type": "Robbery",
+      "description": "Suspect approached the victim with a knife and demanded money. Suspect fled on foot after taking the victim's wallet.",
+      "suspect": {
+        "name": "John Doe",
+        "gender": "Male",
+        "age": "25",
+        "race": "Black"
+      },
+      "victim": {
+        "name": "Bob Johnson",
+        "gender": "Male",
+        "age": "50",
+        "race": "White"
+      }
+    },
+    {
+      "id": "004",
+      "date": "2022-01-03",
+      "time": "18:30:00",
+      "location": "400 Pine St",
+      "city": "Anytown",
+      "state": "CA",
+      "zip": "12345",
+      "crime_type": "Theft",
+      "description": "Suspect stole a purse from the victim's car while it was parked in the parking lot.",
+      "suspect": {
+        "name": "Unknown",
+        "gender": "Unknown",
+        "age": "Unknown",
+        "race": "Unknown"
+      },
+      "victim": {
+        "name": "Mary Jones",
+        "gender": "Female",
+        "age": "28",
+        "race": "Asian"
+      }
+    }
+    ]
+

@@ -1,0 +1,16 @@
+Case ID,Type of Crime,Location,Date,Time,Severity,Victim Information,Suspect Information,Outcome Information,Investigative Information
+1,Assault,Downtown,01-01-2022,10:00 AM,High,"Female, age 30","Male, age 35","Arrested, charged with assault",Witness saw the suspect hit victim
+2,Burglary,Suburbs,01-02-2022,2:00 PM,Medium,N/A,N/A,No suspect identified,Fingerprints found at the scene
+3,Theft,Mall,01-03-2022,5:00 PM,Low,"Male, age 45",N/A,No suspect identified,Surveillance footage captured suspect
+4,Robbery,Downtown,01-04-2022,9:00 PM,High,"Female, age 25","Male, age 30","Arrested, charged with robbery",Suspect's vehicle identified by witness
+5,Vandalism,Park,01-05-2022,1:00 AM,Low,N/A,N/A,No suspect identified,Graffiti found at the scene
+6,Theft,Shopping Mall,04-08-2023,2:30 PM,Medium,"Female, age 27",N/A,No suspect identified,Surveillance footage captured suspect
+7,Assault,Downtown,04-07-2023,10:00 PM,High,"Male, age 42","Male, age 35","Arrested, charged with assault",Suspect identified by witness
+8,Fraud,Online,04-06-2023,9:00 AM,Medium,N/A,N/A,No suspect identified,IP address tracked to a foreign country
+9,Robbery,Gas Station,04-05-2023,3:00 AM,High,"Male, age 23","Male, age 25",Suspect at large,Suspect's vehicle identified by witness
+10,Burglary,Residential,04-04-2023,1:00 PM,Medium,N/A,N/A,No suspect identified,Footprints found at the scene
+11,Vandalism,Public Park,04-03-2023,10:00 PM,Low,N/A,N/A,No suspect identified,Graffiti found at the scene
+12,Assault,Nightclub,04-02-2023,1:00 AM,High,"Female, age 30","Male, age 32","Arrested, charged with assault",Suspect identified by witness
+13,Theft,Convenience Store,04-01-2023,6:00 PM,Low,"Male, age 55",N/A,No suspect identified,Stolen item found at a nearby pawn shop
+14,Robbery,Downtown,03/31/2023,11:00 AM,High,"Male, age 50","Male, age 30",Suspect at large,Surveillance footage captured suspect
+15,Fraud,Phone Scam,03/30/2023,2:00 PM,Low,"Female, age 65",N/A,No suspect identified,Victim's bank account information obtained
