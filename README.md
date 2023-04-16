@@ -3,6 +3,7 @@
 ## PROBLEM STATEMENT:
 
 **Website/App for Citizens and Police for management of crime records**
+> Managing crime records is an essential function of law enforcement agencies, and it is crucial for citizens to have access to reliable information on crime incidents in their communities. A website or app that serves as a platform for citizens and police to manage crime records would be a useful resource for promoting transparency, accountability, and collaboration between law enforcement agencies and the public.
 
 TEAM DETAILS:
 
@@ -45,17 +46,16 @@ By providing law enforcement agencies with this software will provide quickly an
 
 
 --> Additional Features
-Natural language processing to analyze people's feedback for police and suggest updates for better coordination.
+* Natural language processing to analyze people's feedback for police and suggest updates for better coordination.
 
 
 
-TECH STACK USED:
-
-HTML and CSS are used for front-end development---> responsible for crafting the userinterface and presentation layer
-
-The backend utilizes Python, MySQL and js ---> logic and database management 
-
-Data Science, Machine Learning, Artificial intelligence ---> employed for detection and analysis
-
-
- 
+## TECH STACK USED:
+* Python for backend development and data analysis
+* Flask web framework for building the APIs
+* HTML/CSS and JavaScript for front-end development
+* MySQL database for data storage and retrieval
+* OpenCV library for facial recognition and live facial detection
+* Scikit-learn library for implementing various machine learning algorithms for crime analysis and forecasting
+* NLTK library for natural language processing of user feedback
+* Dlib library for fingerprint detection without the need for any hardware
