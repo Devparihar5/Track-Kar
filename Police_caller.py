@@ -3,8 +3,7 @@ import streamlit as st
 import sys
 import requests
 
-# id = "a1i0R--cvttz2FZ-ky8i5vx2XFHWFlKr-cHOnPQyF153JBj7l9iRL2_Ej6dt93dP"
-id = "a1i0M--ea2dl4F_VFzsb8c4kJPHQhgawDHdKtchAGFPWCsWCKCUm3my1z6kWl2lY"
+id = "YOUR_ID_OF_TRUECALLER"
 num = '9059623015'
 # df=bulk_search('9059623015, 8963002842',"IN", id)
 df = search_phonenumber(num, "IN", id)
