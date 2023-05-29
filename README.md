@@ -11,7 +11,6 @@ Devendra Parihar (Data Scientist),
 
 Gopika Varshini (Front-End Developer),
 
-Sruthi Prabha (Front-End Developer)
 
 ## IDEA :
 The main idea behind Trackkar is to provide a smart database management system for police use to track criminals in a more efficient and effective way. The system utilizes various data science and AI/ML techniques to help police track criminals using different identifiers such as mobile numbers, FIR numbers, facial recognition, fingerprint detection, and live facial detection from CCTV cameras. It also provides horizontal crowdsourcing using mobile numbers to get anyone's details, crime analysis and forecasting, and natural language processing to analyze people's feedback for police and suggest updates for better coordination.
